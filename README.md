@@ -3,6 +3,7 @@ Step to configure swap space:
 
 1. check swap space: free -m
 2. command line:
+   
   sudo fallocate -l 1G /swapfile
 
   sudo chmod 600 /swapfile
